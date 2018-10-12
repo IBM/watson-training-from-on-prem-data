@@ -403,7 +403,14 @@ The deployed model will be be provided with documentation to consume the model i
 
 ## Troubleshooting
 
-* `No secure gateways found`: You're secure gateway client (in Docker) is not connected.
+* `No secure gateways found`: You're secure gateway client (in Docker) is not
+  connected. Verify that the Docker container is running and that the secure
+  gateway ID, token, and IP address allowed by the ACL are all configured
+  correctly.
+* `Retrieve instance summary error: An error occurred when getting instance
+  summary data.`: This is a transient error that may occur while creating a
+  secure gateway service. It can be avoided by dismissing the error dialog and
+  refreshing the page.
 
 ## Links
 
