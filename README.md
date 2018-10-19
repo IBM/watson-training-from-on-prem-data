@@ -395,7 +395,7 @@ Wait for your model to be deployed (_DEPLOY_SUCCESS_), and then click on it.
 
 ![Model deployed](doc/source/images/watson-training-from-on-prem-data-29.png)
 
-The deployed model will be be provided with documentation to consume the model in several different programming languages.
+The deployed model will be provided with documentation to consume the model in several different programming languages.
 
 ## Sample output
 
