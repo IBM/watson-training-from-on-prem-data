@@ -3,12 +3,12 @@
 [![Build Status](https://travis-ci.org/IBM/watson-training-from-on-prem-data.svg?branch=master)](https://travis-ci.org/IBM/watson-training-from-on-prem-data)
 
 Many companies and individuals struggle to use their on-premises data &mdash;
-the kind of data that lives on a local machine, within your data center, behind
-your firewall &mdash; for machine learning in the cloud. It can be challenging
+the kind of data that lives on a local machine, within a company data center, behind
+a firewall &mdash; for machine learning in the cloud. It can be challenging
 to find a quick, easy, and secure solution for connecting resources in a
 protected environment to resources in the cloud.
 
-With Watson Studio & Machine Learning, Db2, and Secure Gateway, it is possible
+With Db2, Watson Studio & Machine Learning, and Secure Gateway, it is possible
 to establish a secure, persistent connection between your on-premises data and
 the cloud to train machine learning models leveraging cloud computing resources
 like Spark, elastic environments, and GPUs.
