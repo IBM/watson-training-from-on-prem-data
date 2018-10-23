@@ -414,6 +414,7 @@ The deployed model will be be provided with documentation to consume the model i
 
 ## Links
 
+* [Db2 Developer Community Edition] (https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) software
 * [IBM Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/getting-started/welcome-main.html) documentation
 * [IBM Secure Gateway](https://console.bluemix.net/docs/services/SecureGateway/index.html) documentation
 * [Docker](https://docs.docker.com/) documentation
