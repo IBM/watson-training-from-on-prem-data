@@ -46,13 +46,13 @@ authorized users can access.
 
 ## Steps
 
-1. [Load sample data into an on-premises Db2 database](#load-sample-data-into-an-on-premise-db2-database)
+1. [Create and populate an on-premises Db2 database](#create-and-populate-an-on-premises-db2-database)
 1. [Create IBM Cloud service dependencies](#create-ibm-cloud-service-dependencies)
 1. [Configure a secure gateway to IBM Cloud](#configure-a-secure-gateway-to-ibm-cloud)
 1. [Create a Watson Studio project](#create-a-watson-studio-project)
 1. [Create a machine learning model](#create-a-machine-learning-model)
 
-### Load sample data into an on-premises Db2 database
+### Create and populate an on-premises Db2 database
 
 The fastest way to get started with Db2 on-premises is to use the no-charge
 Db2 Developer Community Edition, which is Db2 running in a Docker container. However, if you already have
