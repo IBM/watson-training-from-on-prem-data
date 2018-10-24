@@ -25,9 +25,9 @@ authorized users can access.
 
 ## Flow
 
-1. Source data is retained in on-premise Db2 database.
-1. Data is accessible to Watson Studio via a Secure Gateway.
-1. Secure gateway is utilized to train a cloud-based machine learning model.
+1. Source data is retained in on-premises Db2 database.
+1. Data is made accessible to Watson Studio via a Secure Gateway.
+1. Data is utilized to train a cloud-based machine learning model.
 
 ## Included components
 
@@ -35,7 +35,7 @@ authorized users can access.
   AI models, and prepare and analyze data, in a single, integrated environment.
 * [Secure Gateway](https://www.ibm.com/cloud/secure-gateway): Create a secure,
   persistent connection between your protected environment and the cloud.
-* [Db2](https://www.ibm.com/analytics/us/en/db2/): On-premises database optimized
+* [IBM Db2](https://www.ibm.com/analytics/us/en/db2/): On-premises database optimized
   to deliver industry-leading performance while lowering costs.
 
 ## Featured technologies
@@ -46,17 +46,17 @@ authorized users can access.
 
 ## Steps
 
-1. [Load sample data into an on-premise Db2 database](#load-sample-data-into-an-on-premise-db2-database)
+1. [Load sample data into an on-premises Db2 database](#load-sample-data-into-an-on-premise-db2-database)
 1. [Create IBM Cloud service dependencies](#create-ibm-cloud-service-dependencies)
 1. [Configure a secure gateway to IBM Cloud](#configure-a-secure-gateway-to-ibm-cloud)
 1. [Create a Watson Studio project](#create-a-watson-studio-project)
 1. [Create a machine learning model](#create-a-machine-learning-model)
 
-### Load sample data into an on-premise Db2 database
+### Load sample data into an on-premises Db2 database
 
-The fastest way to get started with Db2 on-premise is to use the no-charge
-community edition, running in a Docker container. However, if you already have
-an on-premise Db2 instance, feel free to substitute that instead.
+The fastest way to get started with Db2 on-premises is to use the no-charge
+Db2 Developer Community Edition, which is Db2 running in a Docker container. However, if you already have
+an on-premises Db2 database, feel free to substitute that instead.
 
 We'll be populating the database with a sample dataset of building code
 violations, provided by the city of Chicago.
@@ -129,13 +129,13 @@ container.
 docker cp violations.csv db2:/tmp/
 ```
 
-Load the sample data into the `onprem` database in Db2:
+Load the sample data into the `onprem` Db2 database:
 
 ```bash
 docker exec db2 su - db2inst1 -c "db2 CONNECT TO onprem USER watson USING secrete; db2 'IMPORT FROM /tmp/violations.csv OF DEL SKIPCOUNT 1 INSERT INTO violations'"
 ```
 
-At this point, you have a Db2 database instance loaded with sample data.
+At this point, you have an on-premises Db2 database loaded with sample data.
 
 Before you proceed further, you also need to take note of your workstation's
 LAN IP. You can find that address using either `hostname -I` or `ifconfig`,
@@ -414,11 +414,11 @@ The deployed model will be be provided with documentation to consume the model i
 
 ## Links
 
-* [Db2 Developer Community Edition](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) software
+* [IBM Db2 Developer Community Edition](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) software
 * [IBM Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/getting-started/welcome-main.html) documentation
 * [IBM Secure Gateway](https://console.bluemix.net/docs/services/SecureGateway/index.html) documentation
 * [Docker](https://docs.docker.com/) documentation
-* [Db2](https://www.ibm.com/support/knowledgecenter/SSEPGG_10.5.0/com.ibm.db2.luw.kc.doc/welcome.html) documentation
+* [IBM Db2](https://www.ibm.com/support/knowledgecenter/SSEPGG_10.5.0/com.ibm.db2.luw.kc.doc/welcome.html) documentation
 * Related code pattern: [Continuous learning on Db2](https://github.com/IBM/watson-continuous-learning-on-db2)
 * Related video: [Continuous Learning on Watson Data Platform](https://www.youtube.com/watch?v=HCVxGMd1RiQ)
 
