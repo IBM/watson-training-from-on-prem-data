@@ -35,7 +35,7 @@ authorized users can access.
   AI models, and prepare and analyze data, in a single, integrated environment.
 * [Secure Gateway](https://www.ibm.com/cloud/secure-gateway): Create a secure,
   persistent connection between your protected environment and the cloud.
-* [IBM Db2](https://www.ibm.com/analytics/us/en/db2/): On-premises database optimized
+* [IBM Db2](https://www.ibm.com/analytics/us/en/db2/): Relational database management system optimized
   to deliver industry-leading performance while lowering costs.
 
 ## Featured technologies
