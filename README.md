@@ -397,9 +397,9 @@ Wait for your model to be deployed (_DEPLOY_SUCCESS_), and then click on it.
 
 The deployed model will be provided with documentation to consume the model in several different programming languages.
 
-## Sample output
-
 ![Ready to consume cloud-based model](doc/source/images/watson-training-from-on-prem-data-30.png)
+
+> **[Was this pattern helpful to you?](https://goo.gl/forms/mgFPdKgiblVlKTsq1)** Take a 3-question survey to let us know.
 
 ## Troubleshooting
 
