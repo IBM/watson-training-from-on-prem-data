@@ -1,6 +1,6 @@
 # Train a cloud-based machine learning model from on-premise Db2 data
 
-[![Build Status](https://travis-ci.org/IBM/watson-training-from-on-prem-data.svg?branch=master)](https://travis-ci.org/IBM/watson-training-from-on-prem-data)
+[![Build Status](https://api.travis-ci.org/IBM/watson-training-from-on-prem-data.svg?branch=master)](https://travis-ci.org/IBM/watson-training-from-on-prem-data)
 
 Many companies and individuals struggle to use their on-premises data &mdash;
 the kind of data that lives on a local machine, within a company data center, behind
@@ -69,7 +69,7 @@ launch Db2 community edition in a container running in the background.
 
 > Including the `--env LICENSE="accept"` argument indicates your acceptance of
 > the [license
-> agreement](http://www-03.ibm.com/software/sla/sladb.nsf/displaylis/5DF1EE126832D3F185257DAB0064BEFA?OpenDocument)
+> agreement](https://www-03.ibm.com/software/sla/sladb.nsf/displaylis/5DF1EE126832D3F185257DAB0064BEFA?OpenDocument)
 > to use the software contained in the Docker image.
 
 This command sets a password for the default instance user (`db2inst1`) to
@@ -175,19 +175,19 @@ can do for free. In our use case, Watson Studio will rely on the Object Storage
 service to store it's data, the Apache Spark service for data processing, and
 the Machine Learning service for building machine learning models.
 
-From the [IBM Cloud Catalog](https://console.bluemix.net/catalog/), select the
-[**Storage**](https://console.bluemix.net/catalog/?category=storage) category,
+From the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/), select the
+[**Storage**](https://cloud.ibm.com/catalog?category=storage) category,
 and then the [**Object
-Storage**](https://console.bluemix.net/catalog/services/cloud-object-storage)
+Storage**](https://cloud.ibm.com/catalog/services/cloud-object-storage)
 service. Then, click **Create**.
 
 ![Create IBM Cloud Object Storage service](doc/source/images/watson-training-from-on-prem-data-01.png)
 
-From the [IBM Cloud Catalog](https://console.bluemix.net/catalog/), select the
+From the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/), select the
 [**Web and
-Application**](https://console.bluemix.net/catalog/?category=app_services)
+Application**](https://cloud.ibm.com/catalog?category=app_services)
 category, and then the [**Apache
-Spark**](https://console.bluemix.net/catalog/services/apache-spark) service.
+Spark**](https://cloud.ibm.com/catalog/services/apache-spark) service.
 Then, click **Create**.
 
 ![Create IBM Cloud Apache Spark instance](doc/source/images/watson-training-from-on-prem-data-02.png)
@@ -198,10 +198,10 @@ The secure gateway allows limited network ingress to your on-premise network as
 governed by an access control list (ACL). For our use case, we will allow
 Watson Studio to securely communicate with your on-premise Db2 instance.
 
-From the [IBM Cloud Catalog](https://console.bluemix.net/catalog/), select the
-[**Integration**](https://console.bluemix.net/catalog/?category=app_services)
+From the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/), select the
+[**Integration**](https://cloud.ibm.com/catalog?category=app_services)
 category, and then the [**Secure
-Gateway**](https://console.bluemix.net/catalog/services/apache-spark) service.
+Gateway**](https://cloud.ibm.com/catalog/services/apache-spark) service.
 Then, click **Create**.
 
 ![New secure gateway](doc/source/images/watson-training-from-on-prem-data-03.png)
@@ -242,10 +242,10 @@ will now be able to access Db2.
 
 ### Create a Watson Studio project
 
-From the [IBM Cloud Catalog](https://console.bluemix.net/catalog/), select the
-[**AI**](https://console.bluemix.net/catalog/?category=ai) category, and then
+From the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/), select the
+[**AI**](https://cloud.ibm.com/catalog?category=ai) category, and then
 the [**Watson
-Studio**](https://console.bluemix.net/catalog/services/watson-studio) service.
+Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
 Then, click **Create**.
 
 ![Create IBM Cloud Watson Studio service](doc/source/images/watson-training-from-on-prem-data-07.png)
@@ -416,7 +416,7 @@ The deployed model will be provided with documentation to consume the model in s
 
 * [IBM Db2 Developer Community Edition](https://www.ibm.com/us-en/marketplace/ibm-db2-direct-and-developer-editions) software
 * [IBM Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/getting-started/welcome-main.html) documentation
-* [IBM Secure Gateway](https://console.bluemix.net/docs/services/SecureGateway/index.html) documentation
+* [IBM Secure Gateway](https://cloud.ibm.com/docs/services/SecureGateway/index.html) documentation
 * [Docker](https://docs.docker.com/) documentation
 * [IBM Db2](https://www.ibm.com/support/knowledgecenter/SSEPGG_10.5.0/com.ibm.db2.luw.kc.doc/welcome.html) documentation
 * Related code pattern: [Continuous learning on Db2](https://github.com/IBM/watson-continuous-learning-on-db2)
@@ -424,12 +424,12 @@ The deployed model will be provided with documentation to consume the model in s
 
 ## Learn more
 
-* **Artificial Intelligence Code Patterns**: Enjoyed this Code Pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/code/technologies/artificial-intelligence/).
+* **Artificial Intelligence Code Patterns**: Enjoyed this Code Pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our Code Pattern videos
 * **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
 
 ## License
 
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
