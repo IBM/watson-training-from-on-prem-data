@@ -399,7 +399,7 @@ The deployed model will be provided with documentation to consume the model in s
 
 ![Ready to consume cloud-based model](doc/source/images/watson-training-from-on-prem-data-30.png)
 
-> **[Was this pattern helpful to you?](https://docs.google.com/forms/d/e/1FAIpQLSeXRtYgtbAf4uIQxFj2pxnEhRtc9oFeOn4kO4lDVj-CKUjEJw/viewform?usp=send_form)** Take a 3-question survey to let us know.
+> **[Was this pattern helpful to you?](https://goo.gl/forms/mgFPdKgiblVlKTsq1)** Take a 3-question survey to let us know.
 
 ## Troubleshooting
 
