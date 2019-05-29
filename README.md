@@ -232,7 +232,7 @@ blocked from accessing any network resources. To allow Watson Studio to access
 your Db2 instance, we need to specifically allow access to the port published
 by Docker on your workstation's LAN IP address (e.g. `192.168.1.100`):
 
-```
+```bash
 acl allow 192.168.1.100:50000
 ```
 
@@ -290,7 +290,7 @@ Click **Create** when you are ready.
 In the secure gateway terminal, you may see a log message indicating that a
 connection was successfully established from Watson Studio:
 
-```
+```bash
 [2018-08-31 10:38:38.708] [INFO] (Client ID K75lSQ0Oppd_d87) Connection #1 is being established to 192.168.1.100:50000
 ```
 
